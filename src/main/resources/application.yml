@@ -1,0 +1,14 @@
+server:
+  port: 6001
+
+mybatis:
+  mapperLocations: classpath:mapper/*.xml
+
+
+spring:
+  datasource:
+    test1:
+      driverClassName: com.mysql.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/user_2019?useUnicode=true&characterEncoding=utf-8
+      username: root
+      password: 123456
